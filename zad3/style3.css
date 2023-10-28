@@ -1,0 +1,32 @@
+.buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: 10px;
+}
+
+button {
+        all: unset;
+        width: 100px;
+        height: 50px;
+        margin: 5px;
+        border: 2px solid lightblue;
+        border-radius: 10px;
+        cursor: pointer;
+        
+}
+button:hover {
+    background-color: lightblue;
+    color: blue;
+}
+button:focus {
+    box-shadow: rgb(0 0 0) 0 -2px 5px 1px;
+}
+
+@media (max-width: 300px) {
+    .buttonContainer {
+        flex-direction: column;
+    }
+}
+
+

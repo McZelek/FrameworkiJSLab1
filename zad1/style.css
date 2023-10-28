@@ -1,0 +1,49 @@
+
+* {
+    font-family: Arial, sans-serif;
+    max-width: 1024px;
+    box-sizing: border-
+}
+
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: calc((100vw - 1024px) / 2);
+    background-color: lightgrey;
+}
+
+body::before {
+    left: 0;
+}
+
+body::after {
+    right: 0;
+}
+
+p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+body {
+    margin: 2em 3em;
+}
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
